@@ -1,20 +1,20 @@
-# 🧠 RAGpedia - A RAG Plugin for Document-Based Q&A
+# RAGpedia - A RAG Plugin for Document-Based Q&A
 
 A production-ready plugin that transforms your company's PDFs and DOCX documents into a **queryable knowledge assistant**. It uses **Retrieval-Augmented Generation (RAG)** to deliver intelligent, context-aware responses — complete with **images**, **tables**, and **code snippets**, all formatted in **Markdown** so you can render them directly in your frontend.
 
 ---
 
-## 📈 Ideal For
+## Ideal For
 
-- 📚 Internal knowledge bases
-- 📞 Customer support automation
-- 🧾 Financial software FAQs (e.g., Tally, Zoho Books)
-- ⚙️ Onboarding and policy guidance
-- 💬 Developer documentation bots
+-  Internal knowledge bases
+-  Customer support automation
+-  Financial software FAQs (e.g., Tally, Zoho Books)
+-  Onboarding and policy guidance
+-  Developer documentation bots
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 RAGpedia/
@@ -41,7 +41,7 @@ RAGpedia/
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone & Install
 
@@ -77,7 +77,7 @@ sudo apt install poppler-utils
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -87,7 +87,7 @@ OPENROUTER_API_KEY=sk-xxxxx
 
 ---
 
-## ▶️ Running the Backend
+## Running the Backend
 
 ```bash
 uvicorn app:app --reload
@@ -95,7 +95,7 @@ uvicorn app:app --reload
 
 ---
 
-## 🧪 Testing Locally
+## Testing Locally
 
 ```bash
 python main.py
@@ -103,7 +103,7 @@ python main.py
 
 ---
 
-## 📤 API Flow
+## API Flow
 
 - **POST** `/new-session` → Create a new session ID
 - **POST** `/upload` → Upload PDF/DOCX and process
@@ -111,7 +111,7 @@ python main.py
 
 ---
 
-## 📝 Sample Response (Markdown)
+## Sample Response (Markdown)
 
 ```markdown
 ### 1. Steps to Generate Invoice in Tally
@@ -131,7 +131,7 @@ python main.py
 
 ---
 
-## 🧠 Architecture Highlights
+## Architecture Highlights
 
 - Uses `unstructured` to extract rich elements: text, images, tables, code
 - Chunks documents using a custom `StructuredChunker`
@@ -141,7 +141,7 @@ python main.py
 
 ---
 
-## 🧩 Flexibility
+## Flexibility
 
 - Frontend-agnostic: use with any React/Vue dashboard, bot, or mobile app
 - Returns rich Markdown responses, including images, tables and code snippets
@@ -149,7 +149,7 @@ python main.py
 
 ---
 
-## 📝 License
+## License
 
 MIT License — use it, fork it, build on it!
 

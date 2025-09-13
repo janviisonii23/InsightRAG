@@ -155,7 +155,7 @@ MIT License — use it, fork it, build on it!
 
 ---
 
-## 🙌 Built By
+## Built By
 
 **Soham Shah**  
 [LinkedIn](https://linkedin.com/in/sohamshah03) • [GitHub](https://github.com/Sohamshah03)

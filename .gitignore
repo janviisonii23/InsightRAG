@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+
+# Virtual environments
+venv/
+.env
+
+# VSCode
+.vscode/
+
+# Data + embeddings (optional if you want clean repo)
+data/**/*.pdf
+data/**/*.docx
+data/**/*.json
+data/**/*.png
+data/**/*.jpg
+data/**/*.html
+
+# Chroma DB files (if stored here)
+data/chroma_db/
+
+# Cache
+.cache/
